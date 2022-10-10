@@ -1,0 +1,12 @@
+Inicio
+Hacer suma = 0
+Leer numAlum
+Hacer contador = 0
+Mientras contador<=numAlum
+	Leer edad
+	Hacer suma=suma + edad
+	contador = contador + 1
+FinMIentras
+Hacer media = suma/numAlum
+Escribir media
+Fin

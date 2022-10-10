@@ -1,0 +1,25 @@
+Algoritmo tipo_logico
+	Definir n1,n2,n3 Como Entero;
+	Definir condicion Como Logico;
+	Escribir 'Introducir tres números enteros: ';
+	Leer n1,n2,n3;
+	Si n1 = n2 + n3 Entonces
+		Escribir 'Números introducidos: ',n1,' ',n2,' ',n3;
+		Escribir 'Se cumple que n1 = n2 + n3';
+		condicion = Verdadero;
+	Fin Si
+	Si n2 = n1 + n3 Entonces
+		Escribir 'Números introducidos: ',n1,' ',n2,' ',n3;
+		Escribir 'Se cumple que n2 = n1 + n3';
+		condicion = Verdadero;
+	Fin Si
+	Si n3 = n1 + n2 Entonces
+		Escribir 'Números introducidos: ',n1,' ',n2,' ',n3;
+		Escribir 'Se cumple que n3 = n1 + n2';
+		condicion = Verdadero;
+	Fin Si
+	Si n1 <> n2 + n3 Y n2 <> n1 + n3 Y n3 <> n1 + n2 Entonces
+		Escribir 'Los números no cumplen la condición.'
+		condicion = Falso;
+	FinSi
+FinAlgoritmo

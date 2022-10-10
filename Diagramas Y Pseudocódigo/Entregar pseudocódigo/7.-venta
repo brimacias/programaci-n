@@ -1,0 +1,24 @@
+Algoritmo venta
+	Definir val,precio,descuento Como Real;
+	Escribir 'Escribir valor bruto: ';
+	Leer val;
+	descuento5 = val * 0.05;
+	descuento10 = val * 0.1;
+	Si val <= 20000 Entonces
+		precio = val;
+		Escribir 'El valor inicial era de ',val;
+		Escribir 'El precio es de ',val;
+	SiNo
+		Si val > 20000 Y val <= 100000 Entonces
+		precio = val - descuento5;
+		Escribir 'El valor inicial era de ',val;
+		Escribir 'El precio es de ',precio;
+	SiNo
+		Si val > 100000 Entonces
+		precio = val - descuento10;
+		Escribir 'El valor inicial era de ',val;
+		Escribir 'El precio es de ',precio;
+		Fin Si
+	FinSi
+	Fin Si
+FinAlgoritmo

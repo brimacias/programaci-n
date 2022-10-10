@@ -1,0 +1,22 @@
+Algoritmo suma_pos_modificada
+	Definir n1,n2,suma Como Entero;
+	Escribir 'Introducir dos números: ';
+	Leer n1,n2;
+	Si n1 >= 0 Y n2 >= 0 Entonces
+		suma<-n1 + n2;
+		Escribir 'Números introducidos: ',n1,' ,',n2;
+		Escribir 'la suma de los dos números es: ',suma;
+	SiNo
+		Si n1 < 0 Entonces
+			Escribir 'No se calcula la suma porque el primer número es negativo.'
+		Sino
+			Si n2 < 0 Entonces
+				Escribir 'No se calcula la suma porque el segundo número es negativo.'
+		Sino
+			Si n1 < 0 Y n2 < 0 Entonces
+				Escribir 'No se calcula la suma porque los dos números son negativos.'
+			FinSi
+		Fin Si
+		FinSi
+	FinSi
+FinAlgoritmo

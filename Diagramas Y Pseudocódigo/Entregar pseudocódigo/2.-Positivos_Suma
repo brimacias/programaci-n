@@ -1,0 +1,12 @@
+Algoritmo suma_positivos
+	Definir n1,n2,suma Como Entero;
+	Escribir 'Introducir dos números: ';
+	Leer n1,n2;
+	Si n1 >= 0 Y n2 >= 0 Entonces
+		suma<-n1 + n2;
+		Escribir 'Números introducidos: ',n1,' ,',n2;
+		Escribir 'la suma de los dos números es: ',suma;
+	SiNo
+		Escribir 'No se calcula porque alguno de los números o los dos no son positivos.'
+	Fin Si
+FinAlgoritmo

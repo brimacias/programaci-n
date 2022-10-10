@@ -1,0 +1,14 @@
+Algoritmo calculo_condiciones
+	Definir n1,n2,suma Como Entero;
+	Escribir 'Introducir dos números: ';
+	Leer n1,n2;
+	Si n1 % 2 = 0 Y n2 % 2 = 0 Entonces
+		Si n1 < 50 Entonces
+			Si n2 >= 100 Y n2 <= 500 Entonces
+				suma<-n1 + n2;
+			Fin Si
+		Fin Si
+	SiNo
+		Escribir 'Error: No se puede realizar la suma porque una o más condiciones no se cumplen.'
+	Finsi
+FinAlgoritmo

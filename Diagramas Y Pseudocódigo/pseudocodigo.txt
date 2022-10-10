@@ -1,0 +1,22 @@
+Suma de diez cantidades utilizando el "Mientras":
+
+Inicio
+
+--Inicializar suma 
+	Hacer suma = 0
+--Inicializar contador
+	Hacer contador = 1
+	
+	Mientras contador <= 10
+		Leer num
+		Hacer suma = suma + num
+		Hacer contador = contador + 1
+	FinMientras
+
+	Escribir suma
+	
+Fin
+
+
+
+

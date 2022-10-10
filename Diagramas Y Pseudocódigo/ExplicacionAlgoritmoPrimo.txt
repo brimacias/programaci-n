@@ -1,0 +1,67 @@
+Algoritmo 
+
+Con la palabra reservada definir declaramos las variables x, n y contador, estas variables las declaramos de tipo entero.
+
+         Definir x,n,contador Como Entero
+
+Con la función escribir pedimos que se ingrese un número.
+
+            Escribir «Escribe un número»
+
+Este número lo almacenamos con la función leer en la variable n.
+
+         leer n
+
+Inicializo la variable x con el número 1.
+
+         x = 1
+
+También inicializo la variable contador con el número cero.
+
+         contador = 0
+
+Utilizamos un ciclo mientras que se estará repitiendo mientras la variable x, que como sabemos empieza valiendo 1, sea menor o igual al número ingresado  por teclado en la variable n.
+
+         Mientras  x <= n Hacer
+
+Mientras la condición se cumpla, entonces vamos evaluando si el número almacenado en la variable n al dividirlos con la función MOD por lo que vaya valiendo x.
+
+                        si n mod x == 0 Entonces
+
+Si el residuo de esta división es igual a cero, entonces significa que el número ingresado en la variable n es divisible entre lo que vale x.
+
+                                 contador = contador + 1
+
+Por lo tanto la variable contador la voy incrementado de uno en uno, cada que esta condición se cumple.
+
+Como sabemos los números primeros son aquellos que únicamente tienen dos divisores, el mismo número y el número 1.
+
+                        FinSi
+
+Incrementamos la variable x en uno, para continuar dividiendo el número almacenado por teclado en n, por todos los números anteriores a dicho número.
+
+                        x = x + 1
+
+Como ya mencionaba el objetivo de este algoritmo es dividir el numero ingresado por teclado por todos los números anteriores a dicho número y aquellos números que solo tengan dos divisores entonces esos números son primos.
+
+            FinMientras
+
+Bien pues simplemente evaluamos si la variable contador es igual a dos, en pocas palabras estamos evaluando si el numero ingresado por el usuario únicamente tuvo dos divisores.
+
+            si contador == 2 Entonces
+
+Si la condición se cumple, entonces mostramos un mensaje en pantalla indicando que el número es primo.
+
+                        Escribir «El número «,n,» es primo»
+
+            SiNo
+
+Si la condición no se cumple, entonces mostramos un mensaje en pantalla donde indicamos que el número no es primo.
+
+                        Escribir «El número «,n,» no es primo»
+
+            FinSi   
+
+Finalmente cerramos la condición y finalizamos el algoritmo.
+
+FinAlgoritmo
