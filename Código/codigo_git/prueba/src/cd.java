@@ -23,7 +23,9 @@ public class cd {
  */
         Lnombre = p1.nombre;
         Llenguaje = p1.lenguaje;
-
         System.out.println(p1.toString());
+
+        cdComercial c1 = new cdComercial("Eliiiiza","Castellano");
+        System.out.println(c1.toString());
     }
 }
