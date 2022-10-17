@@ -11,9 +11,9 @@ public class cd {
          * System.out.println("Programa en " + Llenguaje);
          */
 
-        String Lnombre = teclado.nextLine(); // TODO: revisar lectura de ints como chars
+        String Lnombre/* = teclado.nextLine()*/; // TODO: revisar lectura de ints como chars
 
-        String Llenguaje = teclado.nextLine();
+        String Llenguaje/* = teclado.nextLine()*/;
 
 
         cdProgramador p1 = new cdProgramador("Peggy","Java");
