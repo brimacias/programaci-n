@@ -17,10 +17,10 @@ public class cd {
 
 
         cdProgramador p1 = new cdProgramador("Peggy","Java");
-/**
- * System.out.println(p1.nombre + " programa en " + p1.lenguaje);
- *         System.out.println(p1);
- */
+    /**
+     * System.out.println(p1.nombre + " programa en " + p1.lenguaje);
+     *         System.out.println(p1);
+     */
         Lnombre = p1.nombre;
         Llenguaje = p1.lenguaje;
         System.out.println(p1.toString());
