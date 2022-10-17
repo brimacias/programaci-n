@@ -25,7 +25,7 @@ public class cd {
         Llenguaje = p1.lenguaje;
         System.out.println(p1.toString());
 
-        cdComercial c1 = new cdComercial("Eliiiiza","Castellano");
+        cdComercial c1 = new cdComercial("Eliiiiza","Castellano",4);
         System.out.println(c1.toString());
     }
 }
