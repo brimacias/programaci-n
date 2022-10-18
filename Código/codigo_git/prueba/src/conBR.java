@@ -12,7 +12,7 @@ public class conBR {
         int num2 = Integer.parseInt(b);
         String c = br.readLine();
         int num3 = Integer.parseInt(c);
-        if (num1 == num2 || num2 == num3) {
+        if (num1 == num2 || num2 == num3 || num1 == num3) {
             System.out.println("No se puede ejecutar porque hay números iguales.");
         }
         else if (num1 > num2 && num1 > num3) {
