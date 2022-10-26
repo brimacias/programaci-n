@@ -1,4 +1,6 @@
- import java.sql.SQLOutput;
+package programacion;
+
+import java.sql.SQLOutput;
  import java.util.Scanner;
 
     public class PosNeg {

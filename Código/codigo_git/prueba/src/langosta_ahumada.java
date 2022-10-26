@@ -1,3 +1,5 @@
+package programacion;
+
 import java.util.Scanner;
 
 public class langosta_ahumada {
