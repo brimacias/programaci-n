@@ -1,5 +1,3 @@
-package programacion;
-
 public class principalToxicidad {
     public static void main(String[] args) {
         Toxicidad t1 = new Toxicidad("Producto toxico",5);

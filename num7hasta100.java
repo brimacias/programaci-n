@@ -1,5 +1,3 @@
-package programacion;
-
 public class num7hasta100 {
     public static void main(String[] args) {
         int num = 0;

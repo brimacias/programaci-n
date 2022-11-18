@@ -1,5 +1,3 @@
-package programacion;
-
 public class principalAlumno{
     public static void main(String[] args) {
 

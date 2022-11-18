@@ -1,5 +1,3 @@
-package programacion;
-
 public class Empleado {
     private String nombre;
     private float sueldo;

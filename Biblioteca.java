@@ -1,5 +1,3 @@
-package programacion;
-
 public class Biblioteca {
     private String mes;
     private int cp;

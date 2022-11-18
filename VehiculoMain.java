@@ -1,6 +1,3 @@
-package programacion;
-
-
 import java.util.Scanner;
 
 public class VehiculoMain {

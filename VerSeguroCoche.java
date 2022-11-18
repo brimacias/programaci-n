@@ -1,5 +1,3 @@
-package programacion;
-
 public class VerSeguroCoche {
     public static String ver(){
         seguroCoche s1 = new seguroCoche("Roque",35,7,17000);

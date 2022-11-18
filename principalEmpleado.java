@@ -1,5 +1,3 @@
-package programacion;
-
 public class principalEmpleado {
     public static void main(String[] args) {
         Empleado e1 = new Empleado("Agus",(float) 1600.5, (byte) 12,"octubre");

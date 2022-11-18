@@ -1,5 +1,3 @@
-package programacion;
-
 public class OlaCurso {
     public static void main(String[] args) {
         System.out.println("Ola Curso!!");

@@ -1,5 +1,3 @@
-package programacion;
-
 public class Toxicidad {
     private static String nombreProducto;
     private static int gradoToxicidad;

@@ -1,5 +1,3 @@
-package programacion;
-
 public class seguroCoche {
     private static double tarifaBase;
     public static String nombreAsegurado;
